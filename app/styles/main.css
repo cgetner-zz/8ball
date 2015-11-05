@@ -93,7 +93,7 @@ body {
 .sidebar .my-info {
   position:fixed;
   bottom:0;
-/*  padding:15px;*/
+  padding:15px;
   background:#3E313C;
   width:19.5%;
 }
@@ -149,7 +149,6 @@ body {
   width:80%;
   overflow-y:scroll;
   padding:55px 15px 65px 15px;
-  border: 3px;
 }
 
 .message-pane .header {
@@ -205,4 +204,8 @@ body {
   color:#ccc;
   font-weight: normal;
   font-size:10px;
+}
+
+.login {
+  margin: 8px;
 }

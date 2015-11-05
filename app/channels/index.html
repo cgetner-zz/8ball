@@ -2,13 +2,13 @@
   <div class="sidebar">
 
     <div class="slack-name">
-      <h2>FireSlack</h2>
+      <h2>LevelUP</h2>
     </div>
 
     <div class="channel-list">
-      <div class="list-head">Channels</div>
+      <div class="list-head">Topics</div>
       <div class="channel" ng-repeat="channel in channelsCtrl.channels">
-        <a># {{ channel.name }}</a>
+        <a>> {{ channel.name }}</a>
       </div>
       <div class="channel create">
         <a ui-sref="channels.create">+ create channel</a>
